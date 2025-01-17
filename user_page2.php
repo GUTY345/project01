@@ -160,33 +160,25 @@
             <h3>ชำระค่าเทอม</h3>
             <form id="paymentForm">
                 <div class="mb-3">
-                    <label for="studentId" class="form-label">รหัสประจำตัวนักศึกษา</label>
-                    <input type="text" class="form-control" id="studentId" placeholder="กรอกรหัสนักศึกษา" required>
+                    <label for="studentId" class="form-label">รหัสประจำตัวนักศึกษา: </label>
                 </div>
                 <div class="mb-3">
-                    <label for="name" class="form-label">ชื่อ-นามสกุล</label>
-                    <input type="text" class="form-control" id="name" placeholder="กรอกชื่อ-นามสกุล" required>
+                    <label for="name" class="form-label">ชื่อ-นามสกุล: </label>
                 </div>
                 <div class="mb-3">
-                    <label for="department" class="form-label">แผนกวิชา</label>
-                    <select class="form-select" id="department" required>
-                        <option value="" disabled selected>เลือกแผนกวิชา</option>
-                        <option value="ช่างยนต์">ช่างยนต์</option>
-                        <option value="ช่างไฟฟ้า">ช่างไฟฟ้า</option>
-                        <option value="เทคโนโลยีสารสนเทศ">เทคโนโลยีสารสนเทศ</option>
-                        <option value="การบัญชี">การบัญชี</option>
-                        <option value="คอมพิวเตอร์ธุรกิจ">คอมพิวเตอร์ธุรกิจ</option>
-                    </select>
+                    <label for="department" class="form-label">แผนกวิชา: </label>
                 </div>
                 <div class="mb-3">
-                    <label for="year" class="form-label">ชั้นปี</label>
-                    <select class="form-select" id="year" required>
-                        <option value="" disabled selected>เลือกชั้นปี</option>
-                        <option value="ปวช 1">ปวช 1</option>
-                        <option value="ปวช 2">ปวช 2</option>
-                        <option value="ปวช 3">ปวช 3</option>
-                        <option value="ปวส 1">ปวส 1</option>
-                        <option value="ปวส 2">ปวส 2</option>
+                    <label for="year" class="form-label">ชั้นปี: </label>
+                </div>
+                <div class="mb-3">
+                    <label for="term" class="form-label">ปีการศึกษา</label>
+                    <select class="form-select" id="term" required>
+                        <option value="" disabled selected>เลือกปีการศึกษา</option>
+                        <option >2564</option>
+                        <option >2565</option>
+                        <option >2566</option>
+                        <option >2567</option>
                     </select>
                 </div>
                 <div class="mb-3">
